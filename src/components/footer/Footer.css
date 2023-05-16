@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+footer .contact,
+footer .social-media,
+footer .copy {
+  flex: 1;
+}
+
+footer .social-media {
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+}
+
+footer .copy {
+  text-align: right;
+}
+
+/* Estilos para pantallas grandes (PC) */
+@media screen and (min-width: 1200px) {
+  /* tus estilos aquí */
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* tus estilos aquí */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+  /* tus estilos aquí */
+}
